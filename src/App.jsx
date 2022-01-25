@@ -1,11 +1,12 @@
-
+import "bootstrap/dist/css/bootstrap.min.css";
+import React from "react";
+import Router from "./Router";
 function App() {
-
   return (
-    <div>
-     <h1>hello world</h1>
-    </div>
-  )
+    <>
+      <Router />
+    </>
+  );
 }
 
-export default App
+export default App;

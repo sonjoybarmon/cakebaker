@@ -1,5 +1,41 @@
-*{
+@font-face {
+  font-family: "baloo2-bold";
+  src: local("baloo2-bold"), url(./fonts/Baloo2-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "baloo2-ExtraBold2";
+  src: local("baloo2-ExtraBold2"),
+    url(./fonts/Baloo2-ExtraBold\ 2.ttf) format("truetype");
+}
+@font-face {
+  font-family: "baloo2-ExtraBold";
+  src: local("baloo2-ExtraBold"),
+    url(./fonts/Baloo2-ExtraBold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "baloo2-medium";
+  src: local("baloo2-medi"), url(./fonts/Baloo2-Medium.ttf) format("truetype");
+}
+@font-face {
+  font-family: "baloo2-regular";
+  src: local("baloo2-regu"), url(./fonts/Baloo2-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "baloo2-semiBold";
+  src: local("baloo2-semiBold"),
+    url(./fonts/Baloo2-SemiBold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "balooChaijan";
+  src: local("balooChaijan"),
+    url(./fonts/BalooBhaijaan-Regular.ttf) format("truetype");
+}
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background: #0f172b url(./assets/background.png);
+  color: #94a3b8;
+  font-size: 16px;
+  font-family: "baloo2-regular";
 }
