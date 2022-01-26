@@ -39,3 +39,11 @@
   font-size: 16px;
   font-family: "baloo2-regular";
 }
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url(./assets/menu.png) !important;
+}
+
+.active {
+  color: #fdbe43 !important;
+}
