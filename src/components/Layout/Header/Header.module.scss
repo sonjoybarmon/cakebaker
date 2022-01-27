@@ -13,10 +13,10 @@
         align-items: center;
         .nav_list_item {
           padding: 0 6px;
-          font-family: "baloo2-regular";
           a {
+            font-family: "baloo2-medium";
             font-size: 14px;
-            font-weight: 500;
+            font-weight: 600;
             line-height: 14px;
             margin: 0 12px;
             transition: 0.25s all linear;
@@ -50,10 +50,10 @@
         align-items: center;
         .nav_right_list_item {
           padding: 0 10px;
-          font-family: "baloo2-regular";
+          font-family: "baloo2-medium";
           .nav_right_list_icons {
             font-size: 20px;
-            font-weight: 500;
+            font-weight: 600;
             line-height: 14px;
             transition: 0.25s all linear;
             &:hover {

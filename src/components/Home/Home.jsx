@@ -1,11 +1,13 @@
 import React from "react";
-import { ChooseNft, Layout } from "..";
+import { ChooseNft, Features, Layout, Story } from "..";
 
 const Home = () => {
   return (
     <Layout>
       <main>
         <ChooseNft />
+        <Features />
+        <Story />
       </main>
     </Layout>
   );

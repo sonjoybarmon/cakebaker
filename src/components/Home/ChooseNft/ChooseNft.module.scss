@@ -1,3 +1,44 @@
 .choose_nft_wrapper {
   padding: 60px 0;
+  .choose_main_title {
+    font-weight: 600;
+    font-size: 28px;
+    color: #fff;
+    font-family: "baloo2-bold";
+  }
+  .choose_subtitle {
+    color: #94a3b8;
+    max-width: 810px;
+  }
+  .hv_container {
+    display: flex;
+    align-self: flex-end;
+    flex-direction: column;
+    .img_container {
+      width: 100%;
+      height: auto;
+      img {
+        border-radius: 8px;
+        width: 100%;
+        vertical-align: middle;
+      }
+    }
+    .actions {
+      display: flex;
+      justify-content: center;
+      padding-top: 22px;
+      a {
+        color: rgba(253, 190, 67, 0.9);
+        background: #0f172b;
+        border-color: rgba(253, 190, 67, 0.6);
+        border-radius: 8px;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 100%;
+        padding: 12px 16px;
+        margin: 10px;
+        transition: 0.25s all linear;
+      }
+    }
+  }
 }
